@@ -1,0 +1,1 @@
+Get latest ubuntu, apt-get update/upgrades and echo Hello, World! from a Dockerfile
