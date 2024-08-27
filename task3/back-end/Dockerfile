@@ -13,6 +13,8 @@ RUN rm /usr/lib/python*/EXTERNALLY-MANAGED
 RUN apt-get install -y pip && \
     pip3 install flask
 
+RUN pip3 install flask-cors
+
 COPY ./api.py .
 
 EXPOSE 5252
